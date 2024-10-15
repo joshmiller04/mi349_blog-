@@ -13,7 +13,7 @@
             <li><a href="contact.html">contact</a></li>
         </ul>
     </nav>
-    <h1>Contact Form</h1>
+    <h2>Contact Form</h2>
     <form name="Contact Form">
         <div class="Contact Form">
             <label for="Name">Enter Your Name:</label>
@@ -25,6 +25,16 @@
             <input type="text" name="Email" id="Email"
             required>
         </div>
+        <div class="Contact Form">
+            <label for="Reason For Contact">Reason For Contact:</label>
+            <select name="Reason" id="Reason" required>
+                <option value=""></option>
+
+            </select>
+        </div>
+        <label for="Comments">Comments</label>
+            <textarea name="Comments" id="comments" placeholder="Your Message" required></textarea>
+            <button type="submit"Submit></button>
     </form>
 </body>
 </html>
