@@ -3,31 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Josh's Blog</title> <!-- Added title for SEO and usability -->
+    <title>Contact Form</title>
 </head>
 <body>
     <h1>Josh's Blog</h1>
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="contact.html">Contact</a></li> <!-- Capitalized 'Contact' for consistency -->
             <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
-    
-    <h2>BIO</h2>
-    <section>
-        <p>I'm Josh Miller, an Information Science major with a strong interest in media and information. I am passionate about exploring how technology can enhance world engagement. I also have an entrepreneurial side, always looking for innovative ideas and opportunities to make a difference, whether through a startup or a community project. My laid-back personality makes it easy for me to connect with others, and I believe that collaboration is key to success. I take pride in my communication skills, as I enjoy conveying complex ideas in a relatable way. I aim to create a supportive environment that encourages creativity and teamwork. With my background in information science, a passion for media, and an entrepreneurial mindset, I am excited about the possibilities ahead and look forward to making a meaningful impact in my fields while enjoying the journey along the way.</p>
-        <p>Outside of my studies, I enjoy a variety of activities that keep me balanced and engaged. Here are some of my hobbies:</p>
-        <ul>
-            <li>Hanging out with friends: Whether it's catching up over coffee or just enjoying a casual get-together, I value quality time with the people I care about.</li>
-            <li>Playing and watching sports: I am an avid sports enthusiast, loving everything from basketball to baseball. Whether I am on the courts, fields, or sidelines, sports are a big part of my life.</li>
-            <li>Going out: I enjoy exploring new places, whether it is trying out a new restaurant or hitting up local bars. I love the energy of being out and about.</li>
-        </ul>
-    </section>
-    
-    <section>
-        <center> <img src="imgs/Screen Shot 2024-10-08 at 5.23.57 PM.png" alt="Josh's Blog screenshot"> </center>
-    </section>
+    <h2>Contact Form</h2>
+    <form name="contact-form" netlify>
+        <div class="contact-form">
+            <label for="Name">Enter Your Name:</label>
+            <input type="text" name="Name" id="Name" placeholder="Your full name" required>
+        </div>
+        <div class="contact-form">
+            <label for="Email">Enter Your Email:</label>
+            <input type="email" name="Email" id="Email" placeholder="you@example.com" required>
+        </div>
+        <div class="contact-form">
+            <label for="Reason">Reason For Contact:</label>
+            <select name="Reason" id="Reason" required> 
+                <option value="" disabled selected>Select One</option>
+                <option value="Hi">Saying Hi</option>
+                <option value="Contractor">Looking for a contractor</option>
+                <option value="Interview">Interested in an interview</option>
+            </select>
+        </div>
+        <div class="contact-form">
+            <label for="comments">Comments:</label>
+            <textarea name="Comments" id="comments" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
 </body>
 </html>
