@@ -18,6 +18,10 @@ h1 {
 font-size: 3em;
 margin: 0;
 }
+h2{
+    position: sticky;
+    top: 0;
+}
 p {
 line-height: 1.4em;
 }
