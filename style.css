@@ -10,7 +10,7 @@ body {
 
 }
 section{
-    display: flex 300px
+    display: flex;
 }
 
 h1 {
@@ -35,3 +35,10 @@ margin: 20px;
 padding: 20px;
 }
 
+#blog:nth-of-type(2){
+    flex: 300px;
+}
+
+.blog-post:nth-last-of-type(3){
+    flex: 300px;
+}
