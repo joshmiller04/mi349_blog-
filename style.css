@@ -35,9 +35,9 @@ margin: 20px;
 padding: 20px;
 }
 .fixedsize{
-    width: 750px;
-    height: 750px;
-    object-fit: cover;
+    width: 400px;
+    height: 500px;
+    object-fit: fill;
 }
 #blog:nth-of-type(2){
     flex: 2;
