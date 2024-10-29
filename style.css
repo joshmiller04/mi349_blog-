@@ -11,7 +11,8 @@ body {
 }
 section{
     display: flex;
-    margin: 30px 30px 30px 30px;
+    border: 5px solid #444;
+    margin: auto;
 }
 
 h1 {
