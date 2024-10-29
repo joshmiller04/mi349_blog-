@@ -36,9 +36,9 @@ padding: 20px;
 }
 
 #blog:nth-of-type(2){
-    flex: 300px;
+    flex: 2;
 }
 
 .blog-post:nth-last-of-type(3){
-    flex: 300px;
+    flex: 2;
 }
