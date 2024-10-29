@@ -10,7 +10,7 @@ body {
 
 }
 section{
-    display: flex;
+    display: flex 300px
 }
 
 h1 {
@@ -34,3 +34,4 @@ border-bottom: 1px dotted rgba(17, 18, 17, 0.267);
 margin: 20px;
 padding: 20px;
 }
+
