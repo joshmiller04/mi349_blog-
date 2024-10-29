@@ -9,7 +9,7 @@ body {
     border-top: 10px solid rgba(17, 18, 17, 0.267);
 
 }
-div{ 
+section{
     display: flex;
 }
 
@@ -22,7 +22,6 @@ line-height: 1.4em;
 }
 #blog {
 border-top: 1px dotted rgba(17, 18, 17, 0.267);
-display: flex;
 }
 .blog-post {
 border-bottom: 1px dotted rgba(17, 18, 17, 0.267);
