@@ -1,6 +1,12 @@
+html {
+    background: #e3e3e3;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
+    padding: 40px;
     margin: 40px;
+    border-top: 10px solid #2424
 
 }
 h1 {
