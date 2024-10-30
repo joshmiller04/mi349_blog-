@@ -12,6 +12,9 @@ body {
 section{
     display: flex;
 }
+.bio{
+    display: block;
+}
 
 h1 {
 font-size: 3em;
