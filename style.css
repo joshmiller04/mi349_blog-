@@ -38,6 +38,9 @@ line-height: 1.4em;
 }
 #head{
     border: 5px solid rgba(17, 18, 17, 0.267);
+    position: relative;
+    top: 20px;
+    left: 0px;
     
 }
 #blog {
