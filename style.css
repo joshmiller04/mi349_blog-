@@ -23,7 +23,7 @@ font-size: 3em;
 margin: 0;
 }
 nav{
-    position: relative;
+    position: sticky;
 }
 h2{
     position: sticky;
