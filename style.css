@@ -50,6 +50,11 @@ border-bottom: 1px dotted rgba(17, 18, 17, 0.267);
 margin: 20px;
 padding: 20px;
 }
+.head{
+    float: left;
+    width: 300px;
+    height: 270px;
+}
 .fixedsize{
     width: 600px;
     height: 500px;
