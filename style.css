@@ -15,8 +15,7 @@ body {
 }
 
 section {
-    display: flex; /* Enables flex layout */
-    gap: 20px; /* Optional: Adds space between flex items */
+    display: flex; 
 }
 
 .bio {
