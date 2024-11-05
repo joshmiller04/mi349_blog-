@@ -16,7 +16,7 @@ body {
 }
 section{
     display: flex;
-    
+    display: flex;
 }
 .bio{
     display: block;
