@@ -25,12 +25,21 @@ nav ul {
 }
 
 nav ul li {
-    margin: 10px 0;
+    margin: 10px 0; 
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: black;
+    display: inline-block; 
+    padding: 10px 20px; 
+    background-color: #007BFF; 
+    color: white; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
+}
+
+nav ul li a:hover {
+    background-color: #0056b3; 
 }
 
 .container {
@@ -92,5 +101,5 @@ table th {
 }
 
 table td {
-    background-color: #1308dd;
+    background-color: #3372f2;
 }
