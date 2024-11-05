@@ -76,7 +76,7 @@ p {
     
 }
 .headshot{
-    border: 12px;
+    border: solid black;
     border-color: rgba(17, 18, 17, 0.267);
     width: 750px;
     height: 630px;
