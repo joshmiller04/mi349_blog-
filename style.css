@@ -9,13 +9,13 @@ a[title]
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    padding: 40px;
-    margin: 40px;
+    padding: 30px;
+    margin: 30px;
     border-top: 10px solid rgba(17, 18, 17, 0.267);
 
 }
 section{
-    display: flex;
+    display: flexbox;
 }
 .bio{
     display: block;
