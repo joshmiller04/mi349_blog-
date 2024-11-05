@@ -72,12 +72,13 @@ h2 {
 
 p {
     line-height: 1.4em;
+    font-size: 2em;
 }
 .head{
-    border: 10px;
+    border: solid 12px;
     border-color: rgba(17, 18, 17, 0.267);
-    size: 450px;
-    float: none;
+    width: 200px;
+    height: 125px;
 }
 
 .fixedsize {
