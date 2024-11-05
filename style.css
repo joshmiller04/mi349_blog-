@@ -45,6 +45,12 @@ line-height: 1.4em;
     left: 0px;
     
 }
+.headingn{
+    position: sticky;
+    top: 0;
+    background: color(srgb rgb(0, 0, 0) rgb(0, 0, 0) rgb(57, 57, 71));
+    background-clip: text;
+}
 #blog {
 border-top: 1px dotted rgba(17, 18, 17, 0.267);
 margin: 20px;
@@ -60,6 +66,7 @@ padding: 20px;
     width: 300px;
     height: 270px;
 }
+
 .fixedsize{
     width: 670px;
     height: 500px;
