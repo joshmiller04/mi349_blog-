@@ -64,6 +64,11 @@ h2 {
 p {
     line-height: 1.4em;
 }
+.head{
+    border: 10px;
+    border-color: rgba(17, 18, 17, 0.267);
+    size: 450px;
+}
 
 .fixedsize {
     width: 500px;
@@ -83,9 +88,9 @@ table th, table td {
 }
 
 table th {
-    background-color: #f2f2f2;
+    background-color: #da6512;
 }
 
 table td {
-    background-color: #fff;
+    background-color: #1308dd;
 }
