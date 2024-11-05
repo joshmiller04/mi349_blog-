@@ -25,13 +25,14 @@ section{
 
 h1 {
 font-size: 3em;
-margin-left: 400px;
+margin-left: 440px;
 position: sticky;
 
 }
 nav{
     position: sticky;
     top: 0;
+    box-sizing: border-box;
 }
 h2{
     position: relative;
