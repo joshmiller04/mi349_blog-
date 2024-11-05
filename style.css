@@ -80,6 +80,7 @@ p {
     border-color: rgba(17, 18, 17, 0.267);
     width: 750px;
     height: 630px;
+    align-items: center;
 }
 
 .fixedsize {
