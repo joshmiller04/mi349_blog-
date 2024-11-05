@@ -25,7 +25,8 @@ section{
 
 h1 {
 font-size: 3em;
-margin: 0;
+margin-left: 1000px;
+position: fixed;
 
 }
 nav{
@@ -45,12 +46,8 @@ line-height: 1.4em;
     left: 0px;
     
 }
-.headingn{
-    position: sticky;
-    top: 0;
-    background: color(srgb rgb(0, 0, 0) rgb(0, 0, 0) rgb(57, 57, 71));
-    background-clip: text;
-}
+
+
 #blog {
 border-top: 1px dotted rgba(17, 18, 17, 0.267);
 margin: 20px;
