@@ -2,8 +2,8 @@ html {
     background: #9eb1ef;
     font-family: Arial, Helvetica, sans-serif;
 }
-a[title] 
-{
+
+a[title] {
     color: black;
 }
 
@@ -12,68 +12,77 @@ body {
     padding: 30px;
     margin: 30px;
     border-top: 10px solid rgba(17, 18, 17, 0.267);
+}
 
+section {
+    display: flex; /* Enables flex layout */
+    gap: 20px; /* Optional: Adds space between flex items */
 }
-section{
-    display: flex;
-}
-.bio{
+
+.bio {
     display: block;
     position: sticky;
     top: 0;
 }
 
 h1 {
-font-size: 3em;
-position: sticky;
-top: 0;
-text-align: center;
-
+    font-size: 3em;
+    position: sticky;
+    top: 0;
+    text-align: center;
 }
-nav{
+
+nav {
     position: sticky;
     top: 0;
 }
-h2{
+
+h2 {
     position: relative;
 }
+
 p {
-line-height: 1.4em;
+    line-height: 1.4em;
 }
-#head{
+
+#head {
     border: 10px solid rgba(17, 18, 17, 0.267);
     position: relative;
     top: -215px;
     left: 0px;
-    
 }
-
 
 #blog {
-border-top: 1px dotted rgba(17, 18, 17, 0.267);
-margin: 20px;
-padding-right: 20px;
-}
-.blog-post {
-border-bottom: 1px dotted rgba(17, 18, 17, 0.267);
-margin: 20px;
-padding: 20px;
-}
-.head{
-    float: left;
-    width: 300px;
-    height: 270px;
+    border-top: 1px dotted rgba(17, 18, 17, 0.267);
+    margin: 20px;
+    padding-right: 20px;
+    flex: 2; 
 }
 
-.fixedsize{
+.blog-post {
+    border-bottom: 1px dotted rgba(17, 18, 17, 0.267);
+    margin: 20px;
+    padding: 20px;
+    flex: 2; 
+}
+
+.head {
+    width: 300px;
+    height: 270px;
+    object-fit: cover;
+}
+
+.fixedsize {
     width: 500px;
     height: 400px;
     object-fit: fill;
 }
-#blog:nth-of-type(2){
-    flex: 2;
+
+
+#blog {
+    flex: 2; 
 }
 
-.blog-post:nth-last-of-type(3){
-    flex: 2;
+.blog-post {
+    flex: 2; 
 }
