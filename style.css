@@ -25,7 +25,7 @@ section{
 
 h1 {
 font-size: 3em;
-margin-left: 500px;
+margin-left: 40000px;
 position: sticky;
 
 }
@@ -40,7 +40,7 @@ p {
 line-height: 1.4em;
 }
 #head{
-    border: 5px solid rgba(17, 18, 17, 0.267);
+    border: 10px solid rgba(17, 18, 17, 0.267);
     position: relative;
     top: -215px;
     left: 0px;
