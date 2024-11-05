@@ -14,9 +14,9 @@ body {
     border-top: 10px solid rgba(17, 18, 17, 0.267);
 
 }
-div{
+section{
     display: flex;
-    top: 0;
+    
 }
 .bio{
     display: block;
