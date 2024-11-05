@@ -14,7 +14,7 @@ body {
     border-top: 10px solid rgba(17, 18, 17, 0.267);
 
 }
-section{
+div{
     display: flex;
     top: 0;
 }
