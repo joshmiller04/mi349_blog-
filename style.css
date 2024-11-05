@@ -34,8 +34,6 @@ text-align: center;
 nav{
     position: sticky;
     top: 0;
-    box-sizing: border-box;
-    display: flex;
 }
 h2{
     position: relative;
