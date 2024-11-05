@@ -54,7 +54,7 @@ section {
 }
 
 .blog-post {
-    border-bottom: 1px dotted rgba(17, 18, 17, 0.267);
+    border-bottom: 2.5px dotted rgba(17, 18, 17, 0.267);
     margin: 20px;
     padding: 20px;
 }
@@ -86,11 +86,13 @@ p {
     width: 500px;
     height: 400px;
     object-fit: fill;
+    border: 5px;
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
+    border: 5px;
 }
 
 table th, table td {
