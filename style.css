@@ -77,10 +77,10 @@ p {
 }
 .headshot{
     border: solid black 7px;
-    border-color: rgba(17, 18, 17, 0.267);
     width: 750px;
     height: 630px;
     margin-left: 350px;
+    object-fit: contain;
 }
 
 .fixedsize {
