@@ -68,7 +68,7 @@ h1 {
 
 h2 {
     position: relative;
-    font-size: 3.5em;
+    font-size: 3em;
 }
 
 p {
@@ -76,13 +76,13 @@ p {
     
     
 }
+
 .headshot{
-    border: solid black 7px;
-    width: 750px;
-    height: 630px;
-    margin-left: 350px;
-    object-fit: contain;
-}
+    border: solid black 7px;  
+    width: 750px;            
+    height: 630px;           
+    margin-left: 350px;  
+}  
 
 .fixedsize {
     width: 500px;
